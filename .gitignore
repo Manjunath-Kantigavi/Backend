@@ -1,3 +1,6 @@
 .env
 node_modules
 .env.new
+
+
+# git remote add origin https://github.com/Manjunath-Kantigavi/Backend.git
