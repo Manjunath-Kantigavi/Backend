@@ -51,6 +51,10 @@ app.get('/api/test', (req, res) => {
     res.json({ message: 'Backend server is running!' });
 });
 
+app.get('/api', (req, res) => {
+    res.json({ message: 'Welcome to the API' });
+});
+
 app.get('/api/contact-test', (req, res) => {
     res.json({ message: 'Contact routes are accessible!' });
 });
