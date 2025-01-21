@@ -34,6 +34,7 @@ app.use(cors({
     credentials: true
 }));
 
+app.options('*', cors()); // Explicitly handle OPTIONS requests globally
 // Request logging
 app.use(morgan('dev'));
 
