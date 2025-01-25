@@ -28,7 +28,7 @@ app.use(express.urlencoded({ extended: true }));
 // 'http://127.0.0.1:5500', 'http://localhost:5500', 'http://127.0.0.1:5501','http://localhost:5501',
 // CORS configuration
 app.use(cors({
-    origin: ['https://devdynamic25.github.io/ThinkDesignSolutions'],
+    origin: ['https://manjunath-kantigavi.github.io/ThinkDesignSolutions2/'],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
